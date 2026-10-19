@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Visual Math for Obsidian — Make room for the math.</title>
+  <meta name="description" content="Write equations, explore graphs and build scientific notes in Obsidian. Visual, LaTeX and Hybrid editing. 0.8.2 Public beta for desktop.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#172d32">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Visual Math for Obsidian — Make room for the math.">
+  <meta property="og:description" content="Visual equations. Local graphs. Your Obsidian notes. 0.8.2 Public beta.">
+  <meta property="og:image" content="https://oranipost.github.io/visual-math/assets/share.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Visual Math for Obsidian. Make room for the math. Desktop plugin.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://oranipost.github.io/visual-math/"><meta property="og:url" content="https://oranipost.github.io/visual-math/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="wordmark" aria-label="Visual Math for Obsidian home">Visual Math<span>for Obsidian</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">Menu <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#workflow">Overview</a><a href="#tutorials">Tutorials</a><a href="#roadmap">Roadmap</a><a href="https://www.youtube.com/@VisualMathForObsidian" aria-label="Official Visual Math YouTube channel">YouTube <span aria-hidden="true">↗</span></a>
+        <a class="nav-install" href="#install">Get the plugin <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <a class="release-pill" href="https://github.com/oranipost/visual-math-editor/releases/tag/0.8.2"><span class="status-dot" aria-hidden="true"></span>0.8.2 · Public beta <span aria-hidden="true">↗</span></a>
+        <h1 id="hero-title">Make room<br>for the <em>math.</em></h1>
+        <p class="hero-description">Turn the ideas in your head into equations in your notes. Write visually, work in LaTeX, and explore graphs — right inside Obsidian.</p>
+        <div class="actions"><a class="button primary" href="https://community.obsidian.md/plugins/visual-math-editor">Install in Obsidian <span aria-hidden="true">↗</span></a><a class="button text-button" href="https://www.youtube.com/@VisualMathForObsidian">Our YouTube channel <span aria-hidden="true">↗</span></a></div>
+        <p class="requirements">Obsidian 1.14.4+ <span>·</span> Desktop only <span>·</span> By Oliver</p>
+      </div>
+      <figure class="hero-visual">
+        <div class="visual-label"><span>INSIDE YOUR NOTEBOOK</span><span aria-hidden="true">01 / 02</span></div>
+        <a class="screenshot-link" href="assets/visual-math-0.7.0-hybrid.jpg" aria-label="Open full historical Hybrid editor screenshot">
+          <img src="assets/visual-math-0.7.0-hybrid.jpg" width="2048" height="1600" fetchpriority="high" alt="Real Obsidian screenshot: Visual Math 0.7.0 Spanish Hybrid editor, showing LaTeX and a formatted y equals x squared plus one.">
+          <span class="expand-label">View full screenshot <span aria-hidden="true">↗</span></span>
+        </a>
+        <figcaption><span class="capture-dot" aria-hidden="true"></span>Real Obsidian capture · Visual Math <strong>0.7.0</strong> · Spanish UI<br><span>Historical screenshot. Current release: 0.8.2.</span></figcaption>
+      </figure>
+    </section>
+
+    <div class="principles"><div class="wrap principles-inner"><span><span aria-hidden="true">↔</span> Three ways to write</span><span><span aria-hidden="true">⌁</span> Graphs in your notes</span><span><span aria-hidden="true">◈</span> Runs locally</span><span><span aria-hidden="true">文</span> Three interface languages</span></div></div>
+
+    <section id="workflow" class="section wrap workflow" aria-labelledby="workflow-title">
+      <div class="section-intro"><div><p class="eyebrow">THINK ON THE PAGE</p><h2 id="workflow-title">From a formula<br>to a clearer idea.</h2></div><p>Keep the working where it belongs.<br>Alongside your thoughts, in your own vault.</p></div>
+      <div class="workflow-grid">
+        <div class="workflow-notes">
+          <article><span class="step-number">01</span><div><h3>Write it your way.</h3><p>Build a fraction visually. Edit the LaTeX directly. Use Hybrid to see both together, with one equation draft.</p><div class="mode-list" aria-label="Available editing modes"><span>Visual</span><span>LaTeX</span><span>Hybrid</span></div></div></article>
+          <article><span class="step-number">02</span><div><h3>See the shape of it.</h3><p>Preview supported functions from the current equation. Explore polar curves, complex points and explicit XYZ wireframes too.</p><p class="fine-print">Numerical graphing within supported domains; not a general equation solver.</p></div></article>
+          <article><span class="step-number">03</span><div><h3>Keep the result.</h3><p>Insert the equation and graph into your note. They become independent blocks. Choose <strong>Save view</strong> to keep graph navigation changes.</p></div></article>
+        </div>
+        <figure class="workflow-image"><a href="assets/visual-math-0.7.0-graph-preview.jpg" aria-label="Open full historical function preview screenshot"><img src="assets/visual-math-0.7.0-graph-preview.jpg" width="2048" height="1600" loading="lazy" alt="Real Obsidian screenshot: an open Visual Math 0.7.0 editor with the equation y=x²+1 and its parabola preview."></a><figcaption>Historical screenshot · Visual Math <strong>0.7.0</strong> · macOS, Spanish UI.<br>Open editor preview; this image does not demonstrate a saved result.</figcaption></figure>
+      </div>
+      <aside class="recording-note"><span class="recording-symbol" aria-hidden="true">▶</span><div><strong>Video walkthroughs are coming to the channel.</strong><p>The first public lessons are preparing. For now, follow the written guide below.</p></div><a href="#first-equation">Try your first equation <span aria-hidden="true">↓</span></a></aside>
+    </section>
+
+    <section id="features" class="section features-section" aria-labelledby="features-title"><div class="wrap">
+      <div class="section-intro"><div><p class="eyebrow">A TOOLKIT FOR SCIENTIFIC NOTES</p><h2 id="features-title">More of the working.<br>Less of the friction.</h2></div><p>From a lecture note to a lab notebook,<br>keep your notation close to your thinking.</p></div>
+      <div class="feature-grid"><article class="feature-card"><span class="feature-icon" aria-hidden="true">∑</span><h3>Visual, LaTeX and Hybrid equation editing</h3><p>Insert and reopen inline or display LaTeX formulas, including fractions, roots, scripts, integrals and sums.</p><details><summary>Scope &amp; limits</summary><p>Unknown macros and complex TeX may require source editing.</p></details></article><article class="feature-card"><span class="feature-icon" aria-hidden="true">⌁</span><h3>Function, polar, complex-plane and XYZ graphs</h3><p>Plot supported explicit y=f(x), r=f(theta), z=f(x,y), and rectangular complex points locally.</p><details><summary>Scope &amp; limits</summary><p>Numerical approximations; no general implicit/parametric solver, symbolic algebra, overlays or sliders.</p></details></article><article class="feature-card"><span class="feature-icon" aria-hidden="true">∫</span><h3>Numerical calculus views</h3><p>First and second numerical derivatives and finite definite integration for supported real functions.</p><details><summary>Scope &amp; limits</summary><p>Not symbolic differentiation/integration; finite increasing continuous intervals only.</p></details></article><article class="feature-card"><span class="feature-icon" aria-hidden="true">H₂</span><h3>Chemistry and physics writing tools</h3><p>Format chemical notation, use bounded balance suggestions, insert physics symbols and editable templates.</p><details><summary>Scope &amp; limits</summary><p>Balance suggestions do not establish reaction feasibility; no molecular or physics simulation.</p></details></article><article class="feature-card"><span class="feature-icon" aria-hidden="true">↔</span><h3>Units and periodic table</h3><p>Convert among 63 preset unit choices in 11 categories; look up 118 elements.</p><details><summary>Scope &amp; limits</summary><p>Within-category preset conversion and local reference data; no arbitrary dimensional analysis.</p></details></article><article class="feature-card"><span class="feature-icon" aria-hidden="true">/</span><h3>Custom formula keywords</h3><p>Save up to 50 formula shortcuts per vault and expand them in Visual/Hybrid formatted input.</p><details><summary>Scope &amp; limits</summary><p>Keywords do not expand in ordinary notes or the LaTeX source pane.</p></details></article></div>
+      <div class="local-note"><span aria-hidden="true">◈</span><p><strong>Your workspace stays local.</strong> No runtime account or network connection is required. Downloading and installing the plugin needs access to its distribution source.</p><p class="language-note">English · 简体中文 · Español</p></div>
+    </div></section>
+
+    <section id="install" class="section wrap" aria-labelledby="install-title">
+      <div class="section-intro"><div><p class="eyebrow">START HERE</p><h2 id="install-title">A small addition.<br>A new way to take notes.</h2></div><div><p>Visual Math is an Obsidian desktop plugin.<br>Install it in the vault you want to use.</p><a class="inline-link" href="https://community.obsidian.md/plugins/visual-math-editor">Open official community directory <span aria-hidden="true">↗</span></a></div></div>
+      <div class="install-layout"><div class="install-card"><div class="card-topline"><span class="tag">Recommended</span><span>0.8.2 · Public beta</span></div><h3>Install from Community plugins</h3><ol class="install-steps"><li>Settings → Community plugins</li><li>If required, allow community plugins</li><li>Browse → search Visual Math</li><li>Select Visual Math by Oliver; verify repository oranipost/visual-math-editor</li><li>Install → Enable</li><li>Open a Markdown note → ∑</li></ol><a class="button primary" href="https://community.obsidian.md/plugins/visual-math-editor">Find Visual Math <span aria-hidden="true">↗</span></a></div><aside class="install-aside"><h3>Make sure it’s the right one.</h3><dl><dt>Plugin ID</dt><dd><code>visual-math-editor</code></dd><dt>Repository</dt><dd><a href="https://github.com/oranipost/visual-math-editor">oranipost/visual-math-editor <span aria-hidden="true">↗</span></a></dd><dt>Requires</dt><dd>Obsidian 1.14.4+ · Desktop</dd></dl><p>Search for <strong>Visual Math</strong> by <strong>Oliver</strong>. Check the repository and ID, then check your installed version in Settings.</p><details class="manual-install"><summary>Prefer to install manually?</summary><p>Download the compiled <strong>visual-math-editor-0.8.2.zip</strong>. Ordinary use does not require Node.js.</p><a class="inline-link" href="https://github.com/oranipost/visual-math-editor/releases/download/0.8.2/visual-math-editor-0.8.2.zip">Download installation ZIP <span aria-hidden="true">↓</span></a><ol><li>Extract the ZIP and copy the complete <code>visual-math-editor</code> folder to your vault’s <code>.obsidian/plugins/</code>.</li><li>Check that <code>main.js</code>, <code>manifest.json</code> and <code>styles.css</code> sit directly inside that plugin folder. Keep the included licenses and notices.</li><li>Restart Obsidian, then enable Visual Math in <strong>Settings → Community plugins</strong>.</li></ol><p>GitHub’s Source code downloads and the source ZIP are developer archives, not the compiled installation package. Back up an existing installation and preserve <code>data.json</code> when updating.</p></details></aside></div>
+      <div id="first-equation" class="first-equation"><div class="first-equation-heading"><p class="eyebrow">YOUR FIRST EQUATION</p><h3>A fraction. A small addition.<br>Your first saved formula.</h3><p>Use an editable Markdown note in<br>Obsidian’s desktop main window.</p></div><ol><li><strong>Open the editor.</strong><p>Click <span class="key-symbol">∑</span> in the note header or ribbon. Choose <strong>Visual → Math → Fraction</strong>.</p></li><li><strong>Build the fraction.</strong><p>Enter <kbd>3</kbd>, press <kbd>Tab</kbd>, then enter <kbd>4</kbd>. Switch to <strong>LaTeX</strong> and append <code>+1</code>.</p></li><li><strong>See both, then insert.</strong><p>Choose <strong>Hybrid</strong> to see the source and formatted equation. Choose <strong>Insert equation</strong>.</p></li><li><strong>Close. Reopen. Keep thinking.</strong><p>Close the note tab and reopen it. Put the cursor inside the saved equation, then click <span class="key-symbol">∑</span> to edit again. Choose it from the picker if prompted.</p></li></ol></div>
+    </section>
+
+    <section id="tutorials" class="section tutorials-section" aria-labelledby="tutorials-title"><div class="wrap">
+      <div class="section-intro"><div><p class="eyebrow">LEARN ONE THING AT A TIME</p><h2 id="tutorials-title">A path into<br>your next notebook.</h2></div><p>Start with installation, then build<br>your first equation and go from there.</p></div>
+      <p class="tutorial-notice">Video tutorials are preparing. The installation and first-equation written guides are available now.</p>
+      <aside class="channel-callout"><span class="channel-play" aria-hidden="true">▶</span><div><p class="channel-eyebrow">OFFICIAL YOUTUBE CHANNEL</p><h3>Visual Math</h3><p class="channel-handle">@VisualMathForObsidian</p><p>Tutorials and product walkthroughs for Visual Math in Obsidian.</p></div><a class="button primary" href="https://www.youtube.com/@VisualMathForObsidian">Visit our channel <span aria-hidden="true">↗</span></a></aside>
+      <ol class="tutorial-list"><li><span class="lesson-number" aria-hidden="true">01</span><div class="lesson-text"><h3>Install Visual Math in Obsidian</h3><p>Find the correct plugin, install it and enable it in your vault.</p></div><div class="lesson-state"><span class="state">Video preparing</span><a href="#install">Written guide <span aria-hidden="true">↗</span></a></div></li><li><span class="lesson-number" aria-hidden="true">02</span><div class="lesson-text"><h3>Create your first equation</h3><p>Write a formula, insert it, then close and reopen the note.</p></div><div class="lesson-state"><span class="state">Video preparing</span><a href="#first-equation">Written guide <span aria-hidden="true">↗</span></a></div></li><li><span class="lesson-number" aria-hidden="true">03</span><div class="lesson-text"><h3>Edit fractions and roots visually</h3><p>Build structured notation with fractions and roots.</p></div><div class="lesson-state"><span class="state">Video preparing</span></div></li></ol>
+      <div class="tutorial-footer"><span>More to explore: modes, graph workflows and scientific notes.</span><a href="https://github.com/oranipost/visual-math-editor">Read the project documentation <span aria-hidden="true">↗</span></a></div>
+    </div></section>
+
+    <section id="roadmap" class="section wrap" aria-labelledby="roadmap-title">
+      <div class="section-intro"><div><p class="eyebrow">AN OPEN NOTEBOOK</p><h2 id="roadmap-title">Where things stand.<br>Where ideas could go.</h2></div><div><p>Future scope and dates are not confirmed.<br>Discussion themes are marked Considering.</p><p class="updated">Last product review: October 19, 2026</p></div></div>
+      <div class="roadmap-grid"><article class="roadmap-column"><h3 class="roadmap-label"><span aria-hidden="true"></span>Considering</h3><ul><li>Feedback &amp; stability</li><li>Editing &amp; usability</li><li>Graph workflows</li></ul><p>Discussion themes only.</p></article><article class="roadmap-column"><h3 class="roadmap-label"><span aria-hidden="true"></span>Planned</h3><p class="empty-state">No confirmed work announced.</p></article><article class="roadmap-column"><h3 class="roadmap-label"><span aria-hidden="true"></span>In progress</h3><p class="empty-state">No confirmed work announced.</p></article><article class="roadmap-column"><h3 class="roadmap-label"><span aria-hidden="true"></span>Released</h3><h4>0.8.2 · Public beta</h4><p>Consistent product naming and About byline.</p></article></div>
+      <div class="release-note" id="updates"><div><p class="eyebrow">LATEST RELEASE</p><h3>0.8.2 <span>Public beta</span></h3><p>Released October 18, 2026</p></div><div><h4>Consistent product and About details.</h4><p>0.8.2 unifies Visual Math / Oliver display metadata and the About byline. Editing, graphing and saved formats are unchanged from 0.8.1.</p><a class="inline-link" href="https://github.com/oranipost/visual-math-editor/releases/tag/0.8.2">Read the release notes <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section id="faq" class="section faq-section" aria-labelledby="faq-title"><div class="wrap faq-layout"><div><p class="eyebrow">A FEW USEFUL DETAILS</p><h2 id="faq-title">Before you<br>get started.</h2><p>Have a question or a reproducible issue?</p><a class="inline-link" href="https://github.com/oranipost/visual-math-editor/issues">Talk to us on GitHub <span aria-hidden="true">↗</span></a></div><div class="faq-list">
+      <details><summary>Does Visual Math work in this browser?</summary><p>Visual Math runs inside Obsidian on desktop. This website introduces the plugin and helps you install it in a vault.</p></details>
+      <details><summary>Which devices can I use?</summary><p>This release requires Obsidian 1.14.4 or later and is desktop only. Native checks have used macOS with Obsidian 1.14.4. Windows and Linux have not been verified. Mobile is not supported.</p></details>
+      <details><summary>Do I need an account, API key or Node.js?</summary><p>No runtime account, API key or Node.js is required for the compiled plugin. The editor, bundled data and graph tools run locally. Downloading and installing requires access to the distribution source.</p></details>
+      <details><summary>Will an edited equation update its saved graph?</summary><p>Live equation/graph preview is linked only while its editor is open. Saved formula and graph are separate blocks; navigation persists only when explicitly saved. Changing a saved equation later does not automatically update an existing graph. After moving, zooming or rotating a graph, explicitly choose <strong>Save view</strong> or <strong>Save graph</strong> to keep the changes.</p></details>
+      <details><summary>Can it solve any equation or calculate symbolic integrals?</summary><p>Graphing and calculus use numerical methods within supported domains. They are not a general equation solver or symbolic algebra system. Numerical calculus is for supported real functions on finite, increasing, continuous intervals; results are approximations.</p></details>
+      <details><summary>What if my LaTeX does not render visually?</summary><p>Unknown macros and complex TeX may need source editing. Use the LaTeX source view and check the expression. Visual editing does not support every TeX command.</p></details>
+      <details><summary>How do I report a problem?</summary><p><a href="https://github.com/oranipost/visual-math-editor/issues">Open a GitHub issue</a> with your plugin version, Obsidian version, operating system and exact steps. Include a small example you are comfortable sharing. Check existing issues first.</p></details>
+      <details><summary>What license does the plugin use?</summary><p>GNU GPL version 3 only with the Obsidian linking exception. See the <a href="https://github.com/oranipost/visual-math-editor/blob/0.8.2/LICENSING.md">licensing details</a> for the full terms and third-party notices.</p></details>
+    </div></div></section>
+
+    <section class="closing wrap"><p class="eyebrow">THE NEXT IDEA IS YOURS</p><h2>Give your math<br>a place to <em>make sense.</em></h2><a class="button primary" href="https://community.obsidian.md/plugins/visual-math-editor">Install in Obsidian <span aria-hidden="true">↗</span></a><p>Obsidian 1.14.4+ · Desktop only · 0.8.2 Public beta</p></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="wordmark" href="#">Visual Math<span>for Obsidian</span></a><p>Made by Oliver.<br>An independent community plugin for Obsidian.</p><nav aria-label="Footer navigation"><a href="https://github.com/oranipost/visual-math-editor">GitHub <span aria-hidden="true">↗</span></a><a href="https://github.com/oranipost/visual-math-editor/releases/tag/0.8.2">Releases <span aria-hidden="true">↗</span></a><a href="https://www.youtube.com/@VisualMathForObsidian" aria-label="Official Visual Math YouTube channel">YouTube <span aria-hidden="true">↗</span></a><a href="#faq">FAQ</a><a href="https://github.com/oranipost/visual-math-editor/issues">Feedback <span aria-hidden="true">↗</span></a></nav></div></footer>
+</body>
+</html>
